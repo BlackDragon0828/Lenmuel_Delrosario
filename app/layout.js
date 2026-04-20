@@ -36,7 +36,7 @@ export const metadata = {
     title: "Lenmuel Del Rosario | e-Commerce Developer & UI Designer",
     description:
       "Modern web developer crafting responsive and interactive digital experiences. Explore my portfolio and work samples.",
-    siteName: "Sakayet Portfolio",
+    siteName: "Lenmuel Del Rosario",
     images: [
       {
         url: "/images/about_person.jpg", // <-- make this image (1200x630)
