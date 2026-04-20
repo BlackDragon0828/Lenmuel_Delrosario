@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 // ----------- ✅ SEO META DATA -----------
 export const metadata = {
-  metadataBase: new URL("https://www.sakayet.dev/"),
+  metadataBase: new URL("https://lenmuel-delrosario.vercel.app/"),
   title: "Lenmuel Del Rosario | Shopify Expert / React / Wordpress",
   description:
     `I'm Lenmuel Del Rosario, 
@@ -32,7 +32,7 @@ export const metadata = {
   publisher: "Lenmuel Del Rosario",
   openGraph: {
     type: "website",
-    url: "https://sportyconnects.com/",
+    url: "https://lenmuel-delrosario.vercel.app/",
     title: "Lenmuel Del Rosario | e-Commerce Developer & UI Designer",
     description:
       "Modern web developer crafting responsive and interactive digital experiences. Explore my portfolio and work samples.",
@@ -46,14 +46,14 @@ export const metadata = {
       },
     ],
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Lenmuel Del Rosario | e-Commerce Developer & UI Designer",
-    description:
-      "Modern e-Commerce developer building interactive and elegant web apps. Check out my projects and portfolio.",
-    images: ["/images/about_person.jpg"],
-    creator: "@sakayet", // optional if you have a Twitter handle
-  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "Lenmuel Del Rosario | e-Commerce Developer & UI Designer",
+  //   description:
+  //     "Modern e-Commerce developer building interactive and elegant web apps. Check out my projects and portfolio.",
+  //   images: ["/images/about_person.jpg"],
+  //   creator: "@sakayet", // optional if you have a Twitter handle
+  // },
   icons: {
     icon: "/images/logo.png",
     shortcut: "/images/logo.png",
@@ -64,7 +64,7 @@ export const metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://sportyconnects.com/",
+    canonical: "https://lenmuel-delrosario.vercel.app/",
   },
   verification: {
     google: "FNRGUUHYELWtCxS81dqo2oyip-Dym9m6ZMOiWqiiR-A", // your GSC code
