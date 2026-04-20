@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import NeonCursor from "./Components/effects/NeonCursor";
 import Script from "next/script";
+import { Metadata } from "next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -14,9 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 // ----------- ✅ SEO META DATA -----------
-import type { Metadata } from "next";
-
-export const metadata: Metadata = {
+export const metadata = {
   metadataBase: new URL("https://lenmuel-delrosario.vercel.app"),
   title: "Lenmuel Del Rosario | Shopify Expert / React / WordPress",
   description:
@@ -46,6 +45,13 @@ export const metadata: Metadata = {
         alt: "Lenmuel Del Rosario Portfolio Preview",
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Lenmuel Del Rosario | e-Commerce Developer & UI Designer",
+    description:
+      "Modern e-Commerce developer building interactive and elegant web apps. Check out my projects and portfolio.",
+    images: ["https://lenmuel-delrosario.vercel.app/images/about_person.jpg"],
   },
   icons: {
     icon: "/images/logo.png",
