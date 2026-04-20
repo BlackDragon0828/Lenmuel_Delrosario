@@ -14,17 +14,18 @@ const geistMono = Geist_Mono({
 });
 
 // ----------- ✅ SEO META DATA -----------
-export const metadata = {
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
   metadataBase: new URL("https://lenmuel-delrosario.vercel.app"),
-  title: "Lenmuel Del Rosario | Shopify Expert / React / Wordpress",
+  title: "Lenmuel Del Rosario | Shopify Expert / React / WordPress",
   description:
-    `I'm Lenmuel Del Rosario, 
-    Senior Software Engineer with a strong background in building scalable eCommerce and SaaS solutions, 
-    specializing in Shopify Plus, modern JavaScript frameworks, and AI-driven integrations.`,
+    "I'm Lenmuel Del Rosario, Senior Software Engineer with a strong background in building scalable eCommerce and SaaS solutions, specializing in Shopify Plus, modern JavaScript frameworks, and AI-driven integrations.",
   keywords: [
     "Lenmuel Del Rosario",
-    "Lenmuel Del Rosario",
-    "JavaScript",
+    "Shopify Developer",
+    "React Developer",
+    "WordPress Developer",
     "Portfolio Website",
   ],
   authors: [{ name: "Lenmuel Del Rosario" }],
@@ -39,21 +40,13 @@ export const metadata = {
     siteName: "Lenmuel Del Rosario",
     images: [
       {
-        url: "/images/about_person.jpg", // <-- make this image (1200x630)
+        url: "https://lenmuel-delrosario.vercel.app/images/about_person.jpg",
         width: 1200,
         height: 630,
         alt: "Lenmuel Del Rosario Portfolio Preview",
       },
     ],
   },
-  // twitter: {
-  //   card: "summary_large_image",
-  //   title: "Lenmuel Del Rosario | e-Commerce Developer & UI Designer",
-  //   description:
-  //     "Modern e-Commerce developer building interactive and elegant web apps. Check out my projects and portfolio.",
-  //   images: ["/images/about_person.jpg"],
-  //   creator: "@sakayet", // optional if you have a Twitter handle
-  // },
   icons: {
     icon: "/images/logo.png",
     shortcut: "/images/logo.png",
@@ -65,9 +58,6 @@ export const metadata = {
   },
   alternates: {
     canonical: "https://lenmuel-delrosario.vercel.app",
-  },
-  verification: {
-    google: "FNRGUUHYELWtCxS81dqo2oyip-Dym9m6ZMOiWqiiR-A", // your GSC code
   },
 };
 // ---------------------------------------
